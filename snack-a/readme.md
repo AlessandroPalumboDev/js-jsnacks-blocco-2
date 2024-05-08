@@ -3,10 +3,10 @@ scrivere una funzione contaElementi() che, dato un array in input, restituisca i
 
 - creo un array di elementi
 
-- definisco la funzione contaElementi(){
-    - definisco la variabile count
+- definisco la funzione contaElementi(conta){
+    - definisco la variabile incrementata dal ciclo
 
-    - ciclo while finchè count è minore di arrayt.lenght{
+    - ciclo while finchè count è minore di conta.lenght{
         incrementa count
     }
 
