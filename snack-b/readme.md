@@ -5,12 +5,12 @@ scrivere una funzione trovaIndice() che, dati un array e un elemento in input, r
 
 - creo un prompt che salvo in una variabile
 
-- creo la funzione trovaIndice(trova){
+- creo la funzione trovaIndice(trova, elemento){
 
     - creo la variabile per la posizione
 
-    - creo un ciclo for che cicla per tutti gli elementi finché non trova la parola{
-        - se la parola è diversa da tutti gli elementi la variabile della posizione è '-1' altrimenti è uguale all'indice del ciclo
+    - creo un ciclo for che cicla per tutti gli elementi finché non trova l'elemento'{
+        - se la parola è uguale a un elemento la variabile della posizione è uguale all'indice del ciclo e si blocca altrimenti è -1
         - return la variabile della posizione
     }
 }
