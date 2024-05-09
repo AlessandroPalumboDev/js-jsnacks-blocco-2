@@ -3,12 +3,13 @@ scrivere una funzione rimuoviDallaCoda() che, dato un array A in input, restitui
 
 - creo array di inmput con tot elementi
 
-- definisco funzione rimuoviDallaCoda(rimuovi, ultimoElemento){
+- creo un array di output vuoto
 
-    - creo un array vuoto B
+- definisco funzione rimuoviDallaCoda(rimuovi, nuovoArray){
+
     - creo un ciclo for che continui a girare fino alla lunghezza dell'array di imput -1 che pushi gli elementi del primo array nel secondo
     - return array b
 
 }
 
-- stampo array b
+- stampo
