@@ -8,11 +8,15 @@ scrivere una funzione trovaIndice() che, dati un array e un elemento in input, r
 - creo la funzione trovaIndice(trova, elemento){
 
     - creo la variabile per la posizione
+    - creo variabile booleana (check) su falso 
+    - se check è falso, elemento fuori lista posizione -1
 
     - creo un ciclo for che cicla per tutti gli elementi finché non trova l'elemento'{
-        - se la parola è uguale a un elemento la variabile della posizione è uguale all'indice del ciclo e si blocca altrimenti è -1
-        - return la variabile della posizione
+        - se la parola è uguale a un elemento la variabile della posizione è uguale all'indice del ciclo e il check è su vero
     }
+
+    - return la variabile della posizione
+
 }
 
 - stampo
